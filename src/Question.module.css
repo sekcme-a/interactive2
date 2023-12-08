@@ -1,0 +1,35 @@
+.top{
+  padding: 30px 10px;
+  display: flex;
+}
+.q{
+  color: #C8FD06;
+  font-size: 70px;
+  margin-right: 10px;
+}
+.title{
+  color: #C8FD06;
+  font-size: 30px;
+}
+.img{
+  width: 100%;
+  object-fit: contain;
+}
+.verticalImg{
+  height: 50vh;
+  object-fit: contain;
+}
+
+.bottom{
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+.bottom p{
+  font-size: 14px;
+  color: white;
+}
+.percent{
+  color: white;
+  font-size: 30px;
+}

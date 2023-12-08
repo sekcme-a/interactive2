@@ -2,6 +2,7 @@
 import React, {useEffect, useState} from 'react';
 import ReactPlayer from 'react-player';
 import { storage } from 'firebase/firebase';
+import NextButton from './NextButton';
 
 const VideoPlayer = ({ videoFileName }) => {
 
@@ -20,8 +21,11 @@ const VideoPlayer = ({ videoFileName }) => {
   },[])
   if(!isLoading)
   return (
-    <div style={{display:'flex', alignItems:'center', height:'100%'}}>
-      <ReactPlayer url={url} controls />
+    <div style={{width:"100%"}}>
+      <ReactPlayer url={url} controls width="100%"/>
+      <div style={{display:"flex", width:"100%", justifyContent:"flex-end"}}>
+        <NextButton  style={{marginTop:"20px"}} url="/page/2"/>
+      </div>
     </div>
   );
 };

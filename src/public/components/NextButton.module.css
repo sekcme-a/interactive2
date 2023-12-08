@@ -1,0 +1,33 @@
+.button_container{
+  padding: 5px 20px; 
+  height: min-content !important;
+  width: min-content!important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #C8fd06;
+  border-radius: 5px;
+  cursor: pointer;
+  color: black;
+  transition: background-color 0.5s ease, color 0.5s ease;
+}
+.button_container:hover{
+  background-color: #86a704; /* Slightly darker shade */
+  color: #ffffff;
+}
+.text{
+  font-size: 2rem;
+  
+  margin-top: 4px;
+}
+/* @media screen and (max-width: 600px){
+  .button_container{
+    right: 10%;
+    bottom: 31vh;
+    padding: 5px 10px;
+  }
+  .text{
+    font-size: 20px;
+
+  }
+} */
