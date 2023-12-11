@@ -31,6 +31,10 @@
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: black;
 }
+.one_content_container{
+
+
+}
 
 .two_container{
 
@@ -45,7 +49,11 @@
 
 
 .one_content_container{
-  padding: 20px 0;
+  border: 3px solid #C8FD06;
+  margin-top: 10px;
+  padding: 10px 10px;
+  border-radius: 10px;
+  background-color: black;
   text-align: end;
   display: flex;
   position: relative;
@@ -69,11 +77,18 @@
   font-family: 'Black Han Sans', sans-serif !important;
 }
 
+.two_container{
+  margin-top: 30px;
+}
 .two_container .name{ font-size:17px;}
 .two_container .job{ font-size: 15px;}
 
 .two_content_container{
-  padding: 20px 0;
+  border: 3px solid #C8FD06;
+  margin-top: 10px;
+  padding: 10px 10px;
+  border-radius: 10px;
+  background-color: black;
   text-align: start;
   margin-left: 10px;
   display: flex;
@@ -102,3 +117,6 @@
   color: #C8FD06;
   font-family: 'Black Han Sans', sans-serif !important;
 }
+
+
+

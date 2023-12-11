@@ -41,7 +41,7 @@ const Eleven = () => {
         >
           
           <div className={styles.top}>
-            <h1>권순길<strong>안산시외국인주민상담지원센터장</strong></h1>
+            <h1>권순길<strong style={{marginLeft:"10px"}}>안산시외국인주민상담지원센터장</strong></h1>
           </div>
           <div className={styles.text}>
             <div className={styles.img_container}>

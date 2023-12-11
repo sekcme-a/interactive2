@@ -7,7 +7,7 @@ const Four = () => {
 
   return(
     <div style={{
-      width:"100%", height:"100%", backgroundImage: `url("/images/main_bg.png")`,
+      width:"100%", height:"100%", backgroundImage: `url("/images/main_bg.png")`, position:"relative",
       alignContent:"flex-start",
        objectFit:"cover", 
       display:"flex",flexWrap:"wrap"}}
@@ -74,7 +74,7 @@ const Four = () => {
         </motion.div>
 
 
-        <motion.div style={{display:"flex", justifyContent:"flex-end", marginTop:"30px"}}
+        <motion.div style={{display:"flex", justifyContent:"flex-end", marginTop:"30px", position:"absolute", bottom:"20px", right:'20px'}}
           initial={{ x:0, opacity: 0}}
           animate={{x:0, opacity:1}}
           transition={{ duration: 1, delay: 4}}

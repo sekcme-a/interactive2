@@ -28,7 +28,7 @@ const Seven = () => {
               <img src="/images/hon.png" alt="hon andrew giles MP" className={styles.one_img}/>
               <h1 className={styles.one_content}>
                 <strong>유학생과 숙련된 이민자</strong>를 끌어들이고
-                빠른 비자 처리 과정을 통하여 호주로
+                빠른 비자 처리 과정을 통하여 호주로<br />
                 <strong>이민 오는 것에 매력을 더하는 것 </strong>중요
               </h1>
             </div>

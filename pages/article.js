@@ -47,7 +47,7 @@ const Article = () => {
 
 
       <div className={styles.article_container}>
-        <Grid container rowSpacing={2} columnSpacing={2}>
+        <Grid container rowSpacing={5} columnSpacing={2}>
           {list.map((item, index) => (
 
             <Grid item xs={6} sm={4} key={index}>
@@ -63,8 +63,6 @@ const Article = () => {
 
       </div>    
         <div style={{display:"flex", width:"100%", justifyContent:"flex-end", marginTop: "20px"}}>
-
-
         <NextButton url="/creator"/>
         </div>
       </div>

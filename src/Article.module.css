@@ -24,10 +24,10 @@
 }
 
 .main_container .title{
-  font-size: 5rem;
+  font-size:6rem;
   margin-top: 10px;
   color: #C8FD06;
-  -webkit-text-stroke-width: 4px;
+  -webkit-text-stroke-width: 6px;
   z-index: 9999 !important;
 -webkit-text-stroke-color: black;
   white-space: pre-line;
@@ -38,6 +38,7 @@
 .article_container{
   background-color: black;
   padding: 20px 10px;
+  margin-top: 20px;
 }
 
 

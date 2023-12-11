@@ -114,9 +114,14 @@
 .text .img_container{
   display: flex;
   align-items: flex-end;
+  position: relative;
+  width: 400px;
 }
 .text img{
-  width: 110px;
+  position: absolute;
+  top: 20px;
+  left: -30px;
+  width: 160px;
   object-fit: contain;
 }
 
@@ -125,5 +130,7 @@
   .one_container p{
     width: 70%;
   }
-  
+  .text img{
+    width: 120px;
+  }
 }

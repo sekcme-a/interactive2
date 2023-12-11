@@ -16,11 +16,12 @@ const Question = () => {
   const {index} = router.query
 
   const [title, setTitle] = useState("")
-  const [img, setImg] = useState("/images/q1_graph.png")
+  const [img, setImg] = useState("")
   const [text, setText] = useState("")
 
   useEffect(()=> {
     console.log(index)
+    setImg("")
     if(index==="1"){
       setTitle("대한민국 거주를 위해 취득하고자 하는 비자는 무엇인가요?")
       setImg("/images/q1_graph.png")

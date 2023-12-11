@@ -16,41 +16,43 @@ const Creator = () => {
           <h1 className={styles.text2}>it</h1>
         </div>
 
-        <h2>만든 사람들</h2>
-        <Grid container rowSpacing={4} columnSpacing={2}>
-          <Grid item xs={6}>
-            <div className={styles.item_container}>
-              <img src="/images/creator/1.png" alt="만든사람" />
-              <div>
-                <h3>강성혁 기자</h3>
-                <p>dealyness@naver.com</p>
+        <div style={{marginLeft:"20px"}}>
+          <h2>만든 사람들</h2>  
+          <Grid container rowSpacing={4} columnSpacing={2} style={{marginTop: "10px"}}>
+            <Grid item xs={6}>
+              <div className={styles.item_container}>
+                <img src="/images/creator/1.png" alt="만든사람" />
+                <div>
+                  <h3>강성혁 기자</h3>
+                  <p>dealyness@naver.com</p>
+                </div>
               </div>
-            </div>
-          </Grid>
-          <Grid item xs={12} md={6}>
-            <div className={styles.item_container}>
-              <img src="/images/creator/2.png" alt="만든사람" />
-              <div>
-                <h3>소해련 기자</h3>
-                <p>shryun210@naver.com</p>
+            </Grid>
+            <Grid item xs={12} md={6}>
+              <div className={styles.item_container}>
+                <img src="/images/creator/2.png" alt="만든사람" />
+                <div>
+                  <h3>소해련 기자</h3>
+                  <p>shryun210@naver.com</p>
+                </div>
               </div>
-            </div>
-          </Grid>
-          <Grid item xs={12} md={6}>
-            <div className={styles.item_container}>
-              <img src="/images/creator/3.png" alt="만든사람" />
-              <div>
-                <h3>한예설 기자</h3>
-                <p>sdjebo@naver.com</p>
+            </Grid>
+            <Grid item xs={12} md={6}>
+              <div className={styles.item_container}>
+                <img src="/images/creator/3.png" alt="만든사람" />
+                <div>
+                  <h3>한예설 기자</h3>
+                  <p>sdjebo@naver.com</p>
+                </div>
               </div>
-            </div>
+            </Grid>
+            <Grid item xs={12} md={6}>
+              <div className={styles.button_container}>
+                <NextButton text="start" />
+              </div>
+            </Grid>
           </Grid>
-          <Grid item xs={12} md={6}>
-            <div className={styles.button_container}>
-              <NextButton text="start" />
-            </div>
-          </Grid>
-        </Grid>
+          </div>
       </div>
 
       <div className={styles.footer}>
