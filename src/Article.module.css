@@ -60,3 +60,11 @@
 .item_container p:hover{
   color: #C8FD06;
 }
+
+
+@media screen and (max-width: 420px) {
+  .main_container .title{
+    font-size: 70px;
+    -webkit-text-stroke-width: 4px;
+  }
+}

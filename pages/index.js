@@ -17,10 +17,10 @@ const Home = () => {
 
   return (
     <Wrapper>
-      <div style={{position:"relative", width:"100%", height:"100%", display:"flex", justifyContent:"center", alignItems:"center"}}>
-        <div style={{width: "100%", height:"100%",  objectFit:"cover", backgroundImage: `url("/images/main_bg.png")`, display:"flex", justifyContent:"center", alignItems:"center" }}>
+      <div style={{position:"relative", width:"100%", minHeight:"100vh", display:"flex", justifyContent:"center", alignItems:"center"}}>
+        <div style={{width: "100%", height:"100vh",  objectFit:"cover", backgroundImage: `url("/images/main_bg.png")`, display:"flex", justifyContent:"center", alignItems:"center" }}>
         {/* <NextButton url="/page/1" /> */}
-          <div style={{width:"90%", height:"90%", border:"3px solid #C8FD06", borderRadius:"30px", width:"95%", height:"95%",position: "relative  "}}>
+          <div style={{width:"90%", height:"100vh", border:"3px solid #C8FD06", borderRadius:"30px", width:"95%", height:"95%",position: "relative  "}}>
             <h1 className={styles.title}>
               {`KOREA
               IMMIGRATION

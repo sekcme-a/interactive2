@@ -61,7 +61,7 @@
   font-size: 50px;
   font-family: 'Black Han Sans', sans-serif !important;
   color: white;
-  width: 100%;
+  /* width: 100%; */
 }
 .text2{
   text-align: center;
@@ -70,7 +70,7 @@
   font-size: 50px;
   font-family: 'Black Han Sans', sans-serif !important;
   color: white;
-  width: 100%;
+  /* width: 100%; */
   text-align: start;
 }
 .ani_container{
@@ -93,7 +93,7 @@
   padding: 10px 15px 5px 15px;
   margin-top: -10px;
 
-  font-size: 50px;
+  font-size: 40px;
   font-family: 'Black Han Sans', sans-serif !important;
 }
 
@@ -113,4 +113,70 @@
   text-align: center;
   margin-right: 30px;
   margin-top: 10px;
+}
+
+
+@media screen and (max-width: 400px){
+  .text{
+    font-size: 40px;
+  }
+  .text2{
+    font-size: 40px;
+  }
+  .ani_container p{
+    font-size: 40px;
+  }
+}
+@media screen and (max-width: 350px){
+  .text{
+    font-size: 31px;
+  }
+  .text2{
+    font-size: 31px;
+  }
+  .ani_container p{
+    font-size: 31px;
+  }
+}
+@media screen and (max-height: 700px){
+  .text{
+    font-size: 40px;
+  }
+  .text2{
+    font-size: 40px;
+  }
+  .ani_container p{
+    font-size: 40px;
+  }
+}
+@media screen and (max-height: 610px){
+  .text{
+    font-size: 35px;
+  }
+  .text2{
+    font-size: 35px;
+  }
+  .ani_container p{
+    font-size: 35px;
+  }
+}
+@media screen and (max-height: 560px){
+.and{
+  font-size: 35px;
+}
+.main_container img{
+  width: 60%;
+  object-fit: contain;
+  margin-top: 15px;
+}
+
+  .text{
+    font-size: 31px;
+  }
+  .text2{
+    font-size: 31px;
+  }
+  .ani_container p{
+    font-size: 31px;
+  }
 }

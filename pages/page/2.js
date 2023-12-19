@@ -48,9 +48,7 @@ const Two = () => {
         >
           <h1 className={styles.title}>비자 인식</h1>
           <h1 className={styles.subtitle}>Awareness of visa</h1>
-          <h1 className={styles.content}>{`국내 베트남 사람들은**
-우리나라 비자 정책에 대해
-어떻게 인식하고 있을까요?`}</h1>
+          <h1 className={styles.content}>{`국내 베트남 사람들은** 우리나라 비자 정책에 대해 어떻게 인식하고 있을까요?`}</h1>
         </motion.div>
 
 

@@ -46,7 +46,7 @@ const Ten = () => {
             <p>외국인 인구 지원, <strong>정부와 지방자치 단체</strong>가 나서
 <strong> 대상자들</strong>도 정책 안으로 <strong>적극적인 참여</strong>가 필요</p>
 
-            <h6>* 출처 = 표준국어대사전 </h6>
+            <h6>* 출처 = 표준국어대사전</h6>
           </div>
   
         </motion.div>

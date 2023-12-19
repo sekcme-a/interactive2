@@ -23,8 +23,8 @@ const VideoPlayer = ({ videoFileName }) => {
   return (
     <div style={{width:"100%"}}>
       <ReactPlayer url={url} controls width="100%"/>
-      <div style={{display:"flex", width:"100%", justifyContent:"flex-end"}}>
-        <NextButton  style={{marginTop:"20px"}} url="/page/2"/>
+      <div style={{display:"flex", width:"100%", justifyContent:"flex-end",}}>
+        <NextButton  style={{marginTop:"20px", marginRight:"20px"}} url="/page/2"/>
       </div>
     </div>
   );

@@ -21,9 +21,9 @@
 }
 
 .bottom{
-  margin-top: 30px;
   display: flex;
   justify-content: space-between;
+  margin: 30px 10px 0 10px;
 }
 .bottom p{
   font-size: 14px;
@@ -32,4 +32,21 @@
 .percent{
   color: white;
   font-size: 30px;
+}
+
+
+@media screen and (max-width: 400px) {
+  .q{
+    color: #C8FD06;
+    font-size: 45px;
+    margin-right: 10px;
+  }
+  .title{
+    color: #C8FD06;
+    font-size: 22px;
+  }
+  .bottom p{
+    font-size: 12px;
+    color: white;
+  }
 }

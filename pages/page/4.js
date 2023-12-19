@@ -77,7 +77,7 @@ const Four = () => {
         <motion.div style={{display:"flex", justifyContent:"flex-end", marginTop:"30px", position:"absolute", bottom:"20px", right:'20px'}}
           initial={{ x:0, opacity: 0}}
           animate={{x:0, opacity:1}}
-          transition={{ duration: 1, delay: 4}}
+          transition={{ duration: 1, delay: 3}}
         >
           <NextButton url="/page/5"/>
         </motion.div>

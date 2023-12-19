@@ -20,7 +20,7 @@
   
   margin-top: 4px;
 }
-/* @media screen and (max-width: 600px){
+@media screen and (max-width: 600px){
   .button_container{
     right: 10%;
     bottom: 31vh;
@@ -28,6 +28,25 @@
   }
   .text{
     font-size: 20px;
-
   }
-} */
+}
+@media screen and (max-height: 600px) {
+  .button_container{
+    right: 10%;
+    bottom: 31vh;
+    padding: 5px 10px;
+  }
+  .text{
+    font-size: 20px;
+  }
+}
+@media screen and (max-height: 450px) {
+  .button_container{
+    right: 10%;
+    /* bottom: 31vh; */
+    padding: 3px 7px;
+  }
+  .text{
+    font-size: 15px;
+  }
+}

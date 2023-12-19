@@ -63,7 +63,7 @@ const Article = () => {
 
       </div>    
         <div style={{display:"flex", width:"100%", justifyContent:"flex-end", marginTop: "20px"}}>
-        <NextButton url="/creator"/>
+          <NextButton url="/creator"/>
         </div>
       </div>
       

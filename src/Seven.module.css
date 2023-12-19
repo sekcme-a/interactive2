@@ -59,7 +59,7 @@
   position: relative;
   align-items: center;
   justify-content: flex-end;
-  width: 100%;
+  /* width: 100%; */
 }
 .one_content_container .one_img{
   position: absolute;
@@ -79,6 +79,7 @@
 
 .two_container{
   margin-top: 30px;
+  margin-right: 10px;
 }
 .two_container .name{ font-size:17px;}
 .two_container .job{ font-size: 15px;}
@@ -120,3 +121,27 @@
 
 
 
+@media screen and (max-width:375px) {
+  .one_content_container .one_content{
+    line-height: 1.15;
+    font-size: 18px;
+    color: white;
+    width: 70%;
+  }
+  .one_content_container .one_img{
+    position: absolute;
+    left: 0;
+    width: 120px;
+  }
+  .two_content_container .two_content{
+    line-height: 1.15;
+    font-size: 18px;
+    color: white;
+    width: 70%;
+  }
+  .two_img{
+    position: absolute;
+    right: 0;
+    width: 120px;
+  }
+}

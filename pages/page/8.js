@@ -45,7 +45,7 @@ const Eight = () => {
           </div>
           <div className={styles.text}>줄어들고 있습니다.</div> */}
         <div style={{marginLeft:'20px'}}>
-        <Grid container style={{width:"100%"}} rowSpacing={3}>
+        <Grid container style={{width:"100%"}} rowSpacing={2}>
           <Grid item xs={6}>
             <div className={styles.text}>
               대한민국
@@ -77,7 +77,7 @@ const Eight = () => {
           &
         </motion.h1>
 
-        <Grid container style={{width:"100%", marginTop:"10px"}} rowSpacing={3}>
+        <Grid container style={{width:"100%", marginTop:"10px"}} rowSpacing={2}>
           <Grid item xs={6}>
             <div className={styles.text}>
               대한민국

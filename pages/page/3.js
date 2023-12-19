@@ -8,7 +8,7 @@ const Three = () => {
   const router = useRouter()
 
   return(
-    <div style={{width:"100%", height:"100%", backgroundImage: `url("/images/main_bg.png")`, objectFit:"cover",
+    <div style={{width:"100%",minHeight:"100vh", backgroundImage: `url("/images/main_bg.png")`, objectFit:"cover",
     display:"flex",flexDirection:"column", justifyContent:"space-between", flexWrap:"wrap",}}>
       <h1  className={styles.title}>
         클릭을 통해 통계를 확인해보세요.

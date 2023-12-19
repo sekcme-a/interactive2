@@ -46,3 +46,29 @@
   margin-right: 20px;
   margin-bottom: 20px;
 }
+
+@media screen and (max-width: 410px) {
+  .title{
+    font-size: 2.5rem;
+  }
+
+}
+@media screen and (max-width: 333px) {
+  .text1{
+    font-size: 1.5rem;
+  }
+  .text2{
+    font-size: 1.5rem;
+  }
+}
+@media screen and (max-width: 295px) {
+  .title{
+    font-size: 2rem;
+  }
+  .text1{
+    font-size: 1.25rem;
+  }
+  .text2{
+    font-size: 1.25rem;
+  }
+}

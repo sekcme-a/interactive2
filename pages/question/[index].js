@@ -59,7 +59,7 @@ const Question = () => {
         <h1 className={styles.q}>{`Q${index}`}</h1>
         <h1 className={styles.title}>{title}</h1>
       </motion.div>
-      <div style={{display:"flex", justifyContent:'center', width:"100%"}}>
+      <div style={{display:"flex", justifyContent:'center', padding:"0 10px"}}>
         <motion.img src={img} alt="그래프" className={index==="2"||index==="4" ? styles.verticalImg : styles.img}
           initial={{ opacity: 0}}
           animate={{opacity:1}}
@@ -79,10 +79,10 @@ const Question = () => {
         <motion.div
 
         >
-          <motion.div style={{display:"flex", alignItems:"flex-end",}}
+          <motion.div style={{display:"flex", alignItems:"flex-end", marginLeft:"10px"}}
             initial={{x: -10, opacity: 0}}
             animate={{ x:0,opacity:1}}
-            transition={{ duration: 2, delay: 1.5}}
+            transition={{ duration: 1, delay: 1.5}}
           >
             <h1 style={{color:"white", fontSize:"30px", marginRight:"10px", marginBottom:"8px"}}>A.</h1>
             <h1 style={{color:'white', fontSize:"60px" }}>90%</h1>

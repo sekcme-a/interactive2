@@ -21,6 +21,8 @@
 
 .one_container{
   margin-top: 40px;
+
+  margin-right: 10px;
   width: 100%;
   display: flex;
   flex-wrap: wrap;
@@ -133,4 +135,90 @@
   .text img{
     width: 120px;
   }
+}
+
+
+@media screen and (max-width: 500px) {
+  .one_container p{
+    width: 70%;
+  }
+  
+}
+
+@media screen and (max-width: 350px) {
+  .top strong{
+    font-size: 15px !important;
+    -webkit-text-stroke-width: 1px;
+  }
+  .one_container h1{
+    font-size: 3rem;
+  }
+  .one_container p{
+    font-size: 17px;
+  }
+  .top h1{
+    font-size: 35px;
+  }
+  .top img{
+    width: 75px;
+  }
+  .text{
+    padding: 10px 10px;
+  }
+  .text h1{
+    font-size:  20px;
+  }
+  .text p{
+    margin-top:0px !important;
+    line-height: 1.2;
+    font-weight: bold;
+    font-size: 14px !important;
+  }
+  .text p strong{
+    color: #C8FD06;
+  }
+  .text h6{
+    font-size:  10px;
+    color: #C8FD06;
+    text-align: end;
+    margin-top: 15px;
+  }
+  
+}
+
+@media screen and (max-height: 625px) {
+  .one_container h1{
+    font-size: 3rem;
+  }
+  .one_container p{
+    font-size: 17px;
+  }
+  .top h1{
+    font-size: 35px;
+  }
+  .top img{
+    width: 75px;
+  }
+  .text{
+    padding: 10px 10px;
+  }
+  .text h1{
+    font-size:  20px;
+  }
+  .text p{
+    margin-top:15px;
+    line-height: 1.2;
+    font-weight: bold;
+    font-size: 16px;
+  }
+  .text p strong{
+    color: #C8FD06;
+  }
+  .text h6{
+    font-size:  10px;
+    color: #C8FD06;
+    text-align: end;
+    margin-top: 15px;
+  }
+  
 }
